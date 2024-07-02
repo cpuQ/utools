@@ -66,5 +66,17 @@
   "text.utools.message.autoAttackToggle.on": "AutoAttack §2on",
   "text.utools.message.autoAttackToggle.off": "AutoAttack §4off",
 
+  "text.autoconfig.utools.category.GuiInfo": "GUI Info",
+  "text.autoconfig.utools.option.timeDisplay": "Time Info",
+  "text.autoconfig.utools.option.fpsDisplay": "FPS Info",
+  "text.autoconfig.utools.option.pingDisplay": "Ping Info",
+  "text.autoconfig.utools.option.posDisplay": "Position Info",
+  "text.autoconfig.utools.option.compassDisplay": "Direction Info",
+  "text.utools.info.timeInfo": "Time: %s",
+  "text.utools.info.fpsInfo": "FPS: %s",
+  "text.utools.info.pingInfo": "Ping: %s",
+  "text.utools.info.posInfo": "Position: %s",
+  "text.utools.info.compassInfo": "Facing: %s",
+
   "text.autoconfig.utools.category.default": "Other"
 }
