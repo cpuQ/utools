@@ -23,6 +23,7 @@ _Simple tools for the survival experience. This should act as a replacement to h
 - Hide Pumpkin Overlay
 - Lower Fire & Shield (Customizable)
 - Show Map in Boat while moving
+- Smaller totems
 - Turn off different types of Fog individually or all together
 - Auto-Attack
 
@@ -96,6 +97,7 @@ Toggleable in the settings
 - Lower fire overlay (customizable)
 - Lower shield (customizable)
 - Show map in boat while moving
+- Smaller totem in hand / in pop animation
 
 #### Usage
 
