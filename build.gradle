@@ -35,16 +35,27 @@ dependencies {
 	modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
+def replaceProperties = [
+		version: version,
+		java_version: java_version,
+		loader_version: loader_version,
+		minecraft_version: minecraft_version,
+		fabric_version: fabric_version,
+		cloth_version: cloth_version,
+		modmenu_version: modmenu_version,
+]
+
 processResources {
-	inputs.property "version", project.version
+	inputs.properties replaceProperties
+	replaceProperties.put 'project', project
 
 	filesMatching("fabric.mod.json") {
-		expand "version": project.version
+		expand replaceProperties
 	}
 }
 
 tasks.withType(JavaCompile).configureEach {
-	it.options.release = 21
+	it.options.release = java_version.toInteger()
 }
 
 java {
@@ -53,7 +64,7 @@ java {
 	// If you remove this line, sources will not be generated.
 	withSourcesJar()
 
-	sourceCompatibility = JavaVersion.VERSION_21
+	sourceCompatibility = JavaVersion.VERSION_21 //.toVersion(java_version)
 	targetCompatibility = JavaVersion.VERSION_21
 }
 
@@ -80,19 +91,4 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
-}
-
-modrinth {
-	token = System.getenv("MODRINTH_TOKEN")
-	projectId = "oN5e5EDL"
-	versionNumber = project.modrinth_release_version
-	versionType = "release"
-	uploadFile = jar
-	gameVersions = [project.minecraft_version]
-	loaders = ["fabric"]
-	dependencies {
-		required.project "fabric-api"
-		required.project "cloth-config"
-	}
-	syncBodyFrom = rootProject.file("README.md").text
 }
