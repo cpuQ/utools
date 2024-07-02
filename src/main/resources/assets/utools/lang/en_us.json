@@ -20,6 +20,12 @@
   "text.autoconfig.utools.option.zoomMultiplier.@Tooltip": "Capped at 0.1 and 100",
   "text.autoconfig.utools.option.zoomDuration": "Zoom Duration",
   "text.autoconfig.utools.option.zoomDuration.@Tooltip": "in seconds",
+  "text.autoconfig.utools.option.scrollIncrement": "Scroll Increment",
+  "text.autoconfig.utools.option.scrollIncrement.@Tooltip": "Make negative if you have an inverted scrollwheel",
+  "text.autoconfig.utools.option.zoomInEasing": "Zoom In Easing",
+  "text.autoconfig.utools.option.zoomOutEasing": "Zoom Out Easing",
+  "text.autoconfig.utools.option.zoomRelativeSensitivity": "Relative Sensitivity",
+  "text.autoconfig.utools.option.zoomSmoothCam": "Smooth Camera",
 
 	
   "key.utools.lightOverlayToggle": "Toggle Light Overlay",
