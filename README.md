@@ -15,7 +15,7 @@ _Simple tools for the survival experience. This should act as a replacement to h
 
 ## Short Overview
 - Fullbright / Custom Gamma / Night Vision
-- Zoom
+- Fully configurable Zoom
 - Light Overlay
 - Client Side Time & Weather
 - Unpin all texture packs (Forced Server Resource Pack Bypass)
@@ -45,14 +45,13 @@ You can toggle the normal / fullbright Gamma values in the settings (Accessible 
 
 ## Zoom
 
-Zoom in (or out) with a simple hotkey. You can use a smooth zoom or an instant zoom.
+Zoom in (and out) with a simple hotkey. You can choose between easings or use an instant zoom for zoom-ins and zoom-outs individually.
 
 #### Usage
 
 Hold the `Zoom` keybinding to switch into zoom mode.
 
-Change the zoom multiplier (how far it zooms in) in the settings.
-To modify the zoom animation, change the `Zoom Speed` (Number from 0 to 1, 1 = Instant)
+Visit the config to view all settings. (There are many)
 
 ## Light Overlay
 
