@@ -26,11 +26,11 @@ public class ModConfig  implements ConfigData {
     @ConfigEntry.Gui.Tooltip
     public float zoomMultiplier = 3f;
     @ConfigEntry.Category("Zoom")
-    public float scrollIncrement = 0.3f;
+    public float scrollIncrement = 1f;
     @ConfigEntry.Category("Zoom")
     @ConfigEntry.BoundedDiscrete(min = 0, max = 10)
     @ConfigEntry.Gui.Tooltip()
-    public float zoomDuration = 2;
+    public int zoomDuration = 2;
     @ConfigEntry.Category("Zoom")
     public Easing zoomInEasing = Easing.EASE_OUT_EXPONENTIAL;
     @ConfigEntry.Category("Zoom")
