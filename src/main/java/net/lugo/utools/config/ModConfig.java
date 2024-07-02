@@ -40,6 +40,9 @@ public class ModConfig  implements ConfigData {
     public boolean zoomRelativeSensitivity = true;
     @ConfigEntry.Category("Zoom")
     public boolean zoomSmoothCam = false;
+    @ConfigEntry.Category("Zoom")
+    @ConfigEntry.Gui.Tooltip(count = 2)
+    public boolean turnOffZoom = false;
 
     @ConfigEntry.Category("ClientTimeWeather")
     public boolean clientWeatherClear = false;

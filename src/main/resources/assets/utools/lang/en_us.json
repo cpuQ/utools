@@ -26,6 +26,9 @@
   "text.autoconfig.utools.option.zoomOutEasing": "Zoom Out Easing",
   "text.autoconfig.utools.option.zoomRelativeSensitivity": "Relative Sensitivity",
   "text.autoconfig.utools.option.zoomSmoothCam": "Smooth Camera",
+  "text.autoconfig.utools.option.turnOffZoom": "Compatibility Toggle",
+  "text.autoconfig.utools.option.turnOffZoom.@Tooltip[0]": "Completely toggles off the zoom functionality",
+  "text.autoconfig.utools.option.turnOffZoom.@Tooltip[1]": "Use this when you are having compatibility issues with other zoom mods",
 
 	
   "key.utools.lightOverlayToggle": "Toggle Light Overlay",
