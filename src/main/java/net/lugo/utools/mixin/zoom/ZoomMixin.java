@@ -14,6 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class ZoomMixin {
     @Inject(at = @At("RETURN"), method = "getFov(Lnet/minecraft/client/render/Camera;FZ)D", cancellable = true)
     public void getFov(Camera camera, float tickDelta, boolean changingFov, CallbackInfoReturnable<Double> callbackInfo) {
+        if (UTools.getConfig().turnOffZoom) return;
         double fov = callbackInfo.getReturnValue();
         float effectiveZoomMultiplier = Zoom.goal;
         Easing easing = Zoom.lastGoal >= Zoom.goal ? UTools.getConfig().zoomOutEasing : UTools.getConfig().zoomInEasing;
