@@ -22,6 +22,8 @@
     "visualmods.MapInBoatMixin",
     "visualmods.NoPumpkinOverlayMixin",
     "visualmods.SmallTotemPopMixin",
+    "zoom.MouseSensitivityMixin",
+    "zoom.MouseWheelMixin",
     "zoom.ZoomMixin"
   ]
 }
