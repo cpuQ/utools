@@ -3,9 +3,9 @@ package net.lugo.utools.mixin.fog;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.lugo.utools.UTools;
 import net.lugo.utools.config.ModConfig;
-import net.minecraft.block.enums.CameraSubmersionType;
 import net.minecraft.client.render.BackgroundRenderer;
 import net.minecraft.client.render.Camera;
+import net.minecraft.client.render.CameraSubmersionType;
 import net.minecraft.client.render.FogShape;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -19,7 +19,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(BackgroundRenderer.class)
 public class FogMixin {
     @Unique
-    private static ModConfig CONFIG = UTools.getConfig();
+    private static final ModConfig CONFIG = UTools.getConfig();
 
     @Inject(method = "applyFog", at = @At("RETURN"))
     private static void applyFog(Camera camera, BackgroundRenderer.FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
