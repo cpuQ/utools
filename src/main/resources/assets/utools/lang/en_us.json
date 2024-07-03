@@ -69,5 +69,9 @@
   "text.utools.message.autoAttackToggle.on": "AutoAttack §2on",
   "text.utools.message.autoAttackToggle.off": "AutoAttack §4off",
 
+  "key.utools.hidePlayersToggle": "Toggle Hiding other Players",
+  "text.utools.message.hidePlayersToggle.on": "Hiding other players",
+  "text.utools.message.hidePlayersToggle.off": "Showing other players",
+
   "text.autoconfig.utools.category.default": "Other"
 }
