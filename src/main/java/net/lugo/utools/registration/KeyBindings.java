@@ -3,10 +3,7 @@ package net.lugo.utools.registration;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.lugo.utools.UTools;
-import net.lugo.utools.features.AutoAttack;
-import net.lugo.utools.features.FullBright;
-import net.lugo.utools.features.LightOverlay;
-import net.lugo.utools.features.Zoom;
+import net.lugo.utools.features.*;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
@@ -21,6 +18,7 @@ public class KeyBindings {
         registerZoomKey();
         registerLightOverlayKey();
         registerAutoAttackKey();
+        registerHidePlayersKey();
     }
 
     private static void registerFullbrightGammaKey() {
@@ -74,6 +72,17 @@ public class KeyBindings {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (autoAttackKey.wasPressed()) {
                 AutoAttack.toggle();
+            }
+        });
+    }
+
+    private static void registerHidePlayersKey() {
+        KeyBinding hidePlayersKey = new KeyBinding(BASE_KEY + ".hidePlayersToggle", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN, CATEGORY);
+        KeyBindingHelper.registerKeyBinding(hidePlayersKey);
+
+        ClientTickEvents.END_CLIENT_TICK.register(client -> {
+            if (hidePlayersKey.wasPressed()) {
+                HidePlayers.toggle();
             }
         });
     }
