@@ -25,6 +25,7 @@ _Simple tools for the survival experience. This should act as a replacement to h
 - Show Map in Boat while moving
 - Smaller totems
 - Hide other players
+- Show Barrier blocks
 - Turn off different types of Fog individually or all together
 - Auto-Attack
 
@@ -99,6 +100,7 @@ Toggleable in the settings
 - Lower shield (customizable)
 - Show map in boat while moving
 - Smaller totem in hand / in pop animation
+- Show barrier blocks
 
 #### Usage
 
