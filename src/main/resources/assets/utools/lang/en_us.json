@@ -54,6 +54,7 @@
   "text.autoconfig.utools.option.mapInBoat": "Show Map in Boat",
   "text.autoconfig.utools.option.totemSize": "Totem Size (%)",
   "text.autoconfig.utools.option.totemPopSize": "Totem Pop Size (%)",
+  "text.autoconfig.utools.option.showBarriers": "Show Barriers",
   
   "text.autoconfig.utools.category.Fog": "Fog",
   "text.autoconfig.utools.option.turnOffAllFogs": "Turn off all Fogs",
