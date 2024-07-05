@@ -85,6 +85,17 @@ public class ModConfig  implements ConfigData {
     @ConfigEntry.Category("Fog")
     public boolean skyFog = true;
 
+    @ConfigEntry.Category("GuiInfo")
+    public boolean timeDisplay = false;
+    @ConfigEntry.Category("GuiInfo")
+    public boolean fpsDisplay = false;
+    @ConfigEntry.Category("GuiInfo")
+    public boolean pingDisplay = false;
+    @ConfigEntry.Category("GuiInfo")
+    public boolean posDisplay = false;
+    @ConfigEntry.Category("GuiInfo")
+    public boolean compassDisplay = false;
+
     @ConfigEntry.BoundedDiscrete(min=1,max = 15)
     public int lightOverlayThreshold = 1;
     
