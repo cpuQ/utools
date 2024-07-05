@@ -126,14 +126,6 @@ Automatically clicks the attack button when your hit cooldown has finished.
 
 Press the `Toogle Autoattack` keybinding to toggle on/off.
 
-# Translations
-
-`en_en` English: [@lugosieben](https://github.com/lugosieben) (Must be updated with any new feature!)
-
-`de_de` German: [@Kolpixx](https://github.com/Kolpixx) & [@lugosieben](https://github.com/lugosieben)
-
-`es_es` Spanish: [@lugosieben](https://github.com/lugosieben)
-
 ## Hide other players
 
 Allows you to hide all other players with a keybinding.
@@ -141,6 +133,14 @@ Allows you to hide all other players with a keybinding.
 #### Usage
 
 Press the `Toggle Hiding other Players` keybinding to toggle.
+
+# Translations
+
+`en_en` English: [@lugosieben](https://github.com/lugosieben) (Must be updated with any new feature!)
+
+`de_de` German: [@Kolpixx](https://github.com/Kolpixx) & [@lugosieben](https://github.com/lugosieben)
+
+`es_es` Spanish: [@lugosieben](https://github.com/lugosieben)
 
 # License
 
