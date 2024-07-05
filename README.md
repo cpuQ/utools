@@ -24,6 +24,8 @@ _Simple tools for the survival experience. This should act as a replacement to h
 - Lower Fire & Shield (Customizable)
 - Show Map in Boat while moving
 - Smaller totems
+- Hide other players
+- Show Barrier blocks
 - Turn off different types of Fog individually or all together
 - Auto-Attack
 
@@ -98,6 +100,7 @@ Toggleable in the settings
 - Lower shield (customizable)
 - Show map in boat while moving
 - Smaller totem in hand / in pop animation
+- Show barrier blocks
 
 #### Usage
 
@@ -130,6 +133,14 @@ Press the `Toogle Autoattack` keybinding to toggle on/off.
 `de_de` German: [@Kolpixx](https://github.com/Kolpixx) & [@lugosieben](https://github.com/lugosieben)
 
 `es_es` Spanish: [@lugosieben](https://github.com/lugosieben)
+
+## Hide other players
+
+Allows you to hide all other players with a keybinding.
+
+#### Usage
+
+Press the `Toggle Hiding other Players` keybinding to toggle.
 
 # License
 

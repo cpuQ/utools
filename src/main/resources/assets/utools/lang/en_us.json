@@ -54,6 +54,7 @@
   "text.autoconfig.utools.option.mapInBoat": "Show Map in Boat",
   "text.autoconfig.utools.option.totemSize": "Totem Size (%)",
   "text.autoconfig.utools.option.totemPopSize": "Totem Pop Size (%)",
+  "text.autoconfig.utools.option.showBarriers": "Show Barriers",
   
   "text.autoconfig.utools.category.Fog": "Fog",
   "text.autoconfig.utools.option.turnOffAllFogs": "Turn off all Fogs",
@@ -80,6 +81,11 @@
   "text.utools.info.pingInfo": "Ping: %s",
   "text.utools.info.posInfo": "Position: %s",
   "text.utools.info.compassInfo": "Facing: %s",
+
+  "key.utools.hidePlayersToggle": "Toggle Hiding other Players",
+  "text.utools.message.hidePlayersToggle.on": "Hiding other players",
+  "text.utools.message.hidePlayersToggle.off": "Showing other players",
+
 
   "text.autoconfig.utools.category.default": "Other"
 }

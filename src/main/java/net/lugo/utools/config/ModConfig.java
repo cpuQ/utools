@@ -65,6 +65,8 @@ public class ModConfig  implements ConfigData {
     @ConfigEntry.Category("VisualModifications")
     @ConfigEntry.BoundedDiscrete(min=0, max = 100)
     public float totemPopSize = 100;
+    @ConfigEntry.Category("VisualModifications")
+    public boolean showBarriers = false;
   
     @ConfigEntry.Category("Fog")
     public boolean turnOffAllFogs = false;

@@ -2,9 +2,7 @@
   "required": true,
   "package": "net.lugo.utools.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-    "fullbright.InvalidGammaValuesMixin"
-  ],
+  "mixins": [],
   "injectors": {
     "defaultRequire": 1
   },
@@ -15,15 +13,18 @@
     "copyscreenshot.MainMixin",
     "fog.FogMixin",
     "fullbright.InvalidGammaValuesMixin",
+    "hideplayers.HidePlayersMixin",
     "unpintexturepacks.UnpinTexturePacksMixin",
     "visualmods.LowFireOverlayMixin",
     "visualmods.LowShieldMixin",
-    "visualmods.SmallTotemMixin",
     "visualmods.MapInBoatMixin",
     "visualmods.NoPumpkinOverlayMixin",
+    "visualmods.SmallTotemMixin",
     "visualmods.SmallTotemPopMixin",
     "zoom.MouseSensitivityMixin",
     "zoom.MouseWheelMixin",
-    "zoom.ZoomMixin"
+    "zoom.ZoomMixin",
+    "visualmods.ShowBarriersMixin",
+    "fullbright.InvalidGammaValuesMixin"
   ]
 }
